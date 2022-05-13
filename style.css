@@ -1,7 +1,14 @@
+body {
+    background-color: rgba(255, 228, 196, 0.521);
+}
+
 .slides {
     position: relative;
     text-align: center;
     margin: 0 auto;
+    border: 3px solid #000;
+    width: 600px;
+    height: 600px;
 }
 .slides article {
     width: 20%;
@@ -9,13 +16,13 @@
 }
 
 .slides .image {
-    width: 50%;
+    width: 500%;
     line-height: 0;
 }
 
 .slides .image img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 
 .slides .overflow {
@@ -25,5 +32,52 @@
 
 article img {
     width: 100%;
+}
+
+#desktop:checked ~ #slider {
+    max-width: 960px;
+}
+
+#switch1:checked ~ #control label:nth-child(4),
+#switch2:checked ~ #control label:nth-child(1),
+#switch3:checked ~ #control label:nth-child(2),
+#switch4:checked ~ #control label:nth-child(3){
+    background: url('images/prev.png') no-repeat;
+    float: left;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+#switch1:checked ~ #control label:nth-child(2),
+#switch2:checked ~ #control label:nth-child(3),
+#switch3:checked ~ #control label:nth-child(4),
+#switch4:checked ~ #control label:nth-child(1){
+    background: url('images/next.png') no-repeat;
+    float: right;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.wrapper input {
+    display: none;
+}
+
+#switch1:checked ~ #slides .image {
+    margin-left: 0;
+}
+#switch1:checked ~ #slides .image {
+    margin-left: -100%;
+}
+#switch1:checked ~ #slides .image {
+    margin-left: -200%;
+}
+#switch1:checked ~ #slides .image {
+    margin-left: -300%;
 }
 

@@ -1,0 +1,29 @@
+.slides {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.slides article {
+    width: 20%;
+    float: left;
+}
+
+.slides .image {
+    width: 50%;
+    line-height: 0;
+}
+
+.slides .image img {
+    width: 500px;
+    height: 500px;
+}
+
+.slides .overflow {
+    overflow: hidden;
+    width: 100%;
+}
+
+article img {
+    width: 100%;
+}
+

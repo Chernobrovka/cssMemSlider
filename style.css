@@ -41,10 +41,10 @@ body{
     width: inherit;
 }
 
-.switch1 {background-image: url(images/meme-math.jpg); background-size: contain; border-radius: 10px;}
-.switch2 {background-image: url(images/meme-mens.jpg); background-size: contain; border-radius: 10px;}
-.switch3 {background-image: url(images/meme-skeleton.jpg); background-size: contain; border-radius: 10px;}
-.switch4 {background-image: url(images/meme-timmy.jpg); background-size: contain; border-radius: 10px;}
+.switch1 {background-image: url(images/meme-math900.jpg); background-size: contain; border-radius: 10px;}
+.switch2 {background-image: url(images/meme-mens900.jpg); background-size: contain; border-radius: 10px;}
+.switch3 {background-image: url(images/meme-skeleton900.jpg); background-size: contain; border-radius: 10px;}
+.switch4 {background-image: url(images/meme-timmy900-2.jpg); background-size: contain; border-radius: 10px;}
 
 .wrapper .controls {
     left: 50%;
@@ -144,5 +144,10 @@ body{
 .wrapper .controls {
     margin-left: -80px;
 }
+
+.switch1 {background-image: url(images/meme-math250.jpg); background-size: contain; border-radius: 10px;}
+.switch2 {background-image: url(images/meme-mens250.jpg); background-size: contain; border-radius: 10px;}
+.switch3 {background-image: url(images/meme-skeleton250.jpg); background-size: contain; border-radius: 10px;}
+.switch4 {background-image: url(images/meme-timmy250.jpg); background-size: contain; border-radius: 10px;}
 
 } 

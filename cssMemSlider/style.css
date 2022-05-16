@@ -48,7 +48,7 @@ body{
 
 .wrapper .controls {
     left: 50%;
-    margin-left: -98px;
+    margin-left: -6em;
     position: absolute;
 }
 
@@ -142,7 +142,7 @@ body{
 }
 
 .wrapper .controls {
-    margin-left: -80px;
+    margin-left: -5em;
 }
 
 .switch1 {background-image: url(images/meme-math250.jpg); background-size: contain; border-radius: 10px;}
